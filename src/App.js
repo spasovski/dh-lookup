@@ -64,7 +64,7 @@ class App extends React.Component {
   }
 
   resetSearchResults = () => {
-    this.setState({products: []});
+    this.setState({products: [], ingredients: []});
     this.currentSearchTerm = '';
   }
 

@@ -18,7 +18,7 @@ export default ({ingredients, doLookup, doShowSuggestions, resetSuggestions}) =>
 
   return (
     <>
-      <form onSubmit={(evt) => {
+      <form className="search-form" onSubmit={(evt) => {
         evt.preventDefault();
         doLookup(ingredientId, ingredientName);
       }}>
